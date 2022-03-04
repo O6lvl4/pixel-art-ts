@@ -2,7 +2,9 @@ import { Pixel } from './pixel'
 
 export const hello = (): void => {
   const p: Pixel = {
-    colorSet: new Map().set(1, "#fff").set(2, "#000"),
+    colorSet: new Map()
+      .set(1, "#fff")
+      .set(2, "#000"),
     size: {
       width: 2,
       height: 2
